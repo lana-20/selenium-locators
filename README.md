@@ -29,6 +29,7 @@ __Customized__ Locators:
   - Absolute Xpath
   - Relative Xpath
 
+![image](https://user-images.githubusercontent.com/70295997/205466365-8564f15b-61d4-4c72-9a5f-1795302a921a.png)
 
 
 I cannot  directly find CSS and Xpath in HTML. I have to generate a selector.
