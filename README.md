@@ -39,7 +39,31 @@ Sometimes, even if the correct ID is provided, I can't identify the element. Whe
 
 ![image](https://user-images.githubusercontent.com/70295997/205473012-4c317cc1-71cd-49e9-b63d-5fcffcab7ff7.png)
 
-70-80% of the time in automation, I use Xpath.
+70-80% of the time in automation, I prefer to use Xpath. Especially on more complex web pages with dynamic elements, when attributes change dynamically at runtime.
+
+__Xpath__
+ - XML (Extensible Markup Language) path
+ - Syntax/language for finding any element on the web page using XML path expression
+ - Used to find the location of any element on the web page using HTML DOM structure
+ - Used to navigate through elements and attribites in DOM
+ - An address of an element
+
+Xpath always works based on the DOM structure, not directly on HTML.
+
+Without an address, there is no element. If there is an element on the web page, that element's address should be there, and the corresponding code should be in the HTML DOM structure.
+
+Sometimes, when an element cannot be identified with any other locator, Xpath will 100% find it. That's the reason I use Xpath most of the times. It works effectively, compared to other locators.
+
+__DOM__
+- DOM is an API interface provided by the browser
+- When a web page is loaded, the browser creates a __D__ ocument __O__ bject __M__ odel of the page.
+
+
+
+Whenever I open an app in my browser, it automatically creates the DOM structure for the particular page elements. Browser has an internal interface that creates that DOM structure.
+
+Xpath navigates through DOM nodes to find the element. If the browser properly generates the DOM, then Xpath properly works.
+
   
   
   
