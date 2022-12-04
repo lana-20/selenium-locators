@@ -38,7 +38,9 @@ Sometimes, even if the correct ID is provided, I can't identify the element. Whe
 
 ![image](https://user-images.githubusercontent.com/70295997/205470966-17b52a76-6a9b-4b01-ac3b-6ddef446bee1.png)
 
+![image](https://user-images.githubusercontent.com/70295997/205472939-85e424c4-6bdc-4bc2-8c21-bc3513d38d57.png)
 
+70-80% of the time in automation, I use Xpath.
   
   
   
