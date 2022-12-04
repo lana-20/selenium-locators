@@ -31,14 +31,13 @@ __Customized__ Locators:
 
 ![image](https://user-images.githubusercontent.com/70295997/205466365-8564f15b-61d4-4c72-9a5f-1795302a921a.png)
 
-
 I cannot  directly find CSS and Xpath in HTML. I have to generate a selector.
 
 Sometimes, even if the correct ID is provided, I can't identify the element. When working with many complex pages, I might encounter this challenge. In this situation, I use another locator combination like 'Tag and ID'.
 
 ![image](https://user-images.githubusercontent.com/70295997/205470966-17b52a76-6a9b-4b01-ac3b-6ddef446bee1.png)
 
-![image](https://user-images.githubusercontent.com/70295997/205472939-85e424c4-6bdc-4bc2-8c21-bc3513d38d57.png)
+![image](https://user-images.githubusercontent.com/70295997/205473012-4c317cc1-71cd-49e9-b63d-5fcffcab7ff7.png)
 
 70-80% of the time in automation, I use Xpath.
   
