@@ -64,6 +64,17 @@ Whenever I open an app in my browser, it automatically creates the DOM structure
 
 Xpath navigates through DOM nodes to find the element. If the browser properly generates the DOM, then Xpath properly works.
 
+  __Types of Xpath__
   
+  1) Absolute Xpath
+  2) Relative Xpath
+
+__Difference between Absolute and Relative Xpath__
+
+1) Absolute Xpath starts from the root html node and traverses through the node tree until it identifies the desired element. ⟺ Relative Xpath directly jumps to the desired element in DOM. Relative Xpath does not start at the beginning/root. It works based on a certain attribute (id, name, etc.). It goes/jumps to the element whose attribute I specify, and the rest of the path is then followed.
+
+2) Absolute path starts with __/__. ⟺ Relative path starts with __//__.
+
+3) In Absolute Xpath, use only tags/nodes. ⟺ In Relative Xpath, use only attributes.
   
   
