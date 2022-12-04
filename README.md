@@ -58,7 +58,7 @@ __DOM__
 - DOM is an API interface provided by the browser
 - When a web page is loaded, the browser creates a __D__ ocument __O__ bject __M__ odel of the page.
 
-
+![image](https://user-images.githubusercontent.com/70295997/205520803-e9566aef-afcd-4a93-ab8f-8d81b078b2ea.png)
 
 Whenever I open an app in my browser, it automatically creates the DOM structure for the particular page elements. Browser has an internal interface that creates that DOM structure.
 
