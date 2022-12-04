@@ -1,10 +1,10 @@
 # Selenium Locators
 
-With WebDriver methids I can:
+With WebDriver methods I can:
 1. Identify an element
 2. Perform action (on the web element)
 
-Locators are used to identify web elements. The type of locators used depends on the contect, application and types of elements themselves.
+Locators are used to identify web elements. The type of locators used depends on the context, application and types of elements themselves.
 
 ## Types of Locators
 - Identify various elements on the web using __Locators__.
@@ -36,3 +36,9 @@ I cannot  directly find CSS and Xpath in HTML. I have to generate a selector.
 
 Sometimes, even if the correct ID is provided, I can't identify the element. When working with many complex pages, I might encounter this challenge. In this situation, I use another locator combination like 'Tag and ID'.
 
+![image](https://user-images.githubusercontent.com/70295997/205470966-17b52a76-6a9b-4b01-ac3b-6ddef446bee1.png)
+
+
+  
+  
+  
