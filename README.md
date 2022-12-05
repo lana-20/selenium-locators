@@ -41,7 +41,7 @@ Sometimes, even if the correct ID is provided, I can't identify the element. Whe
 
 70-80% of the time in automation, I prefer to use Xpath. Especially on more complex web pages with dynamic elements, when attributes change dynamically at runtime.
 
-__Xpath__
+[__Xpath__](https://github.com/lana-20/xpath-locators-selenium/blob/main/Xpath%20Locators%20for%20Selenium.pdf)
  - XML (Extensible Markup Language) path
  - Syntax/language for finding any element on the web page using XML path expression
  - Used to find the location of any element on the web page using HTML DOM structure
@@ -80,5 +80,21 @@ __Difference between Absolute and Relative Xpath__
 2) Absolute path starts with __/__. ⟺ Relative path starts with __//__.
 
 3) In Absolute Xpath, use only tags/nodes. ⟺ In Relative Xpath, use only attributes.
+  
+__Relative Xpath Syntax__
+
+//tagname[@atribute='value']  ->  can replace __tagname__ with __*__: //*[@atribute='value']
+  
+__Capture Xpath automatically__
+
+1) Firebug, Firepath - for Firefox -> deprecated
+2) Browser itself started providing options for captioning Xpath:
+    - Select the element tag in DevTools
+    - Right-click > Copy > Copy Xpath (or Copy Full Path)
+3) SelectorsHub browser extension 
+    - multi-browser, rich features
+    - suggests multiple locators, not just Xpath
+    - can right-click on the element and use SelectorHub options directly.
+  
   
   
