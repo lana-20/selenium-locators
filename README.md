@@ -69,6 +69,8 @@ Xpath navigates through DOM nodes to find the element. If the browser properly g
   1) Absolute Xpath
   2) Relative Xpath
 
+![image](https://user-images.githubusercontent.com/70295997/205524355-44ca5738-e7f6-4a09-8195-d50ec05cd677.png)
+
 __Difference between Absolute and Relative Xpath__
 
 1) Absolute Xpath starts from the root html node and traverses through the node tree until it identifies the desired element. ⟺ Relative Xpath directly jumps to the desired element in DOM. Relative Xpath does not start at the beginning/root. It works based on a certain attribute (id, name, etc.). It goes/jumps to the element whose attribute I specify, and the rest of the path is then followed.
