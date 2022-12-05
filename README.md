@@ -104,7 +104,11 @@ __Relative Xpath__
 - no need to write a long Xpath
 - more stable than Absolute Xpath
       
-      
-  
-  
-  
+ __Xpath Options__ (methods):
+ - and
+ - or
+ - contains()
+ - starts-with()
+ - text()
+
+![image](https://user-images.githubusercontent.com/70295997/205553488-41420d60-ef89-4dc7-8e8f-da202420f41e.png)
