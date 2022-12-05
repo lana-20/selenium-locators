@@ -180,6 +180,25 @@ __Xpath Axes__
 
 ![image](https://user-images.githubusercontent.com/70295997/205572445-aee80a42-3ff0-4ede-b032-2c4c2383d8b7.png)
 
+DOM Structure where every node represents a tag in HTML. Every number represents some element on the web page.
+I can consider any node as a 'self' node. Whichever element I take for a basis, I call it a 'self' node.
 
+(3) Parent Node - the node immediately above (on top of) the Self Node
+
+(11) Child Node - the node immediately below the Self Node
+
+(1) Ancestor Node - the parent of Self Node's parent (grandparent)
+
+(16) Descendant Node - the child of Self Node's child (grandchild)
+
+(4)(7)(8) Following Nodes + (2)(5)(6) Preceding Nodes:
+  - nodes parallel to Self Node
+  - along with upper level nodes
+
+In the Following Nodes, there are nodes that are on the same level (parallel to) Self Node.These are Following Sibling Nodes.
+- Following Sibling is a subset of Following - below/under Self Node.
+
+Among Preceding Nodes, whatever nodes I have parallel are the Preceding Sibling Nodes.
+- Preceding Sibling is a subset of Preceding - above/before Self Node.
 
 
