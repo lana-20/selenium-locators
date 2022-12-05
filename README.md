@@ -97,11 +97,12 @@ __Capture Xpath automatically__
     - can right-click on the element and use SelectorHub options directly.
   
 __[Which Xpath Do You Prefer to Use?](https://github.com/lana-20/xpath-locators-selenium/blob/main/Which%20Xpath%20Do%20You%20Prefer%20to%20Use.pdf)__
-    __Relative Xpath__
-      - starts with __//__, which means it can search for an alement anywhere on the page
-      - the path starts in the middle of the HTML DOM structure
-      - no need to write a long Xpath
-      - more stable than Absolute Xpath
+
+__Relative Xpath__
+- starts with __//__, which means it can search for an alement anywhere on the page
+- the path starts in the middle of the HTML DOM structure
+- no need to write a long Xpath
+- more stable than Absolute Xpath
       
       
   
