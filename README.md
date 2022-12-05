@@ -96,5 +96,8 @@ __Capture Xpath automatically__
     - suggests multiple locators, not just Xpath
     - can right-click on the element and use SelectorHub options directly.
   
+__[Which Xpath Do You Prefer to Use?](https://github.com/lana-20/xpath-locators-selenium/blob/main/Which%20Xpath%20Do%20You%20Prefer%20to%20Use.pdf)__
+  
+  
   
   
