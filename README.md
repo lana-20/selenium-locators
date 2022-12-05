@@ -35,7 +35,7 @@ I cannot  directly find CSS and Xpath in HTML. I have to generate a selector.
 
 Sometimes, even if the correct ID is provided, I can't identify the element. When working with many complex pages, I might encounter this challenge. In this situation, I use another locator combination like 'Tag and ID'.
 
-![image](https://user-images.githubusercontent.com/70295997/205470966-17b52a76-6a9b-4b01-ac3b-6ddef446bee1.png)
+<img src="https://user-images.githubusercontent.com/70295997/205470966-17b52a76-6a9b-4b01-ac3b-6ddef446bee1.png" width=600></img>
 
 ![image](https://user-images.githubusercontent.com/70295997/205473012-4c317cc1-71cd-49e9-b63d-5fcffcab7ff7.png)
 
@@ -72,6 +72,8 @@ Xpath navigates through DOM nodes to find the element. If the browser properly g
 ![image](https://user-images.githubusercontent.com/70295997/205524355-44ca5738-e7f6-4a09-8195-d50ec05cd677.png)
 
 __Difference between Absolute and Relative Xpath__
+
+<img src="https://user-images.githubusercontent.com/70295997/205525960-5e66f25f-0381-4bf5-907c-ffc49c5262ab.png" width=300></img>
 
 1) Absolute Xpath starts from the root html node and traverses through the node tree until it identifies the desired element. ⟺ Relative Xpath directly jumps to the desired element in DOM. Relative Xpath does not start at the beginning/root. It works based on a certain attribute (id, name, etc.). It goes/jumps to the element whose attribute I specify, and the rest of the path is then followed.
 
