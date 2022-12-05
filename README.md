@@ -178,6 +178,8 @@ __Xpath Axes__
   
   <img src="https://user-images.githubusercontent.com/70295997/205562771-37bd5be6-e544-4436-a3c3-2ab6b972b2f3.png" width=400></img>
 
-__Relationship of Nodes__
-#TODO
+![image](https://user-images.githubusercontent.com/70295997/205572445-aee80a42-3ff0-4ede-b032-2c4c2383d8b7.png)
+
+
+
 
