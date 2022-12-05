@@ -112,3 +112,72 @@ __Relative Xpath__
  - text()
 
 ![image](https://user-images.githubusercontent.com/70295997/205553488-41420d60-ef89-4dc7-8e8f-da202420f41e.png)
+
+__Xpath with CONTAINS() or STARTS-WITH()__
+
+To identify elements dynamically.
+
+Scenario: Button changes from Start to Stop and from Stop to Start, depending on the status.
+
+<img src="https://user-images.githubusercontent.com/70295997/205558440-dd07f8cd-2398-435d-ac31-5b9449ae204f.png" width=100></img>
+
+Whenever the Button appears as 'Start', the id="start".
+When it turns into 'Stop', then immediately the id changes to id="stop".
+ID attributes are changing dynamically based on the action.
+
+This Xpath matches only when the button is in 'Start' state. It Fails if the button turns into 'Stop':
+
+    //*[@id='start']
+
+Matches only when the button is in 'Stop' status. Fails if the button turns into 'Start':
+
+    //*[@id='stop']
+
+Neither of the two Xpaths is sufficient to identify the element. My goal is to identify the element with a single Xpath, whether in 'Start' or 'Stop' state, even though the attribute is dynamically changing. For that, I use __contains()__ or __starts-with()__ functions, along with Xpath.
+
+Write one common Xpath that matches both cases:
+
+    //*[contains(@id,'st')]
+    
+__contains()__ method checks if the ID contains 'st' or not (anywhere in the value, not just the start).
+
+Can also use __starts-with()__ function:
+
+    //*[starts-with(@id,'st')]
+    
+Sometimes I cannot find a common pattern between the attribute values. I can use the OR operator:
+
+    //*[@id='start' or @id='stop']
+
+
+__Xpath with TEXT() function__
+
+Example: An anchor tag <a> with inner text 'Women'.
+
+To identify an element by Inner Text, use the text() method.
+  
+      driver.find_element(By.XPATH, "//a[text()='Women']").click()
+
+
+__Xpath Axes__
+  
+  Use certain keywords/predicates along with Xpath.
+  - self
+  - parent
+  - child
+  - ancestor
+  - descendant
+  - following
+  - follwoing-sibling
+  - preceding
+  - preceding-sibling
+  
+  With Xpath I can traverse the DOM up and down - top to bottom, bottom to top.
+  Xpath directly jumps to the element, which I can take as a basis. From that element I can navigate to any other element on the DOM structure.
+  This is the flexibility of Xpath. For that, I use Xpath Axes.
+  
+  <img src="https://user-images.githubusercontent.com/70295997/205562771-37bd5be6-e544-4436-a3c3-2ab6b972b2f3.png" width=400></img>
+
+__Relationship of Nodes__
+#TODO
+
