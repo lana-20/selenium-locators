@@ -201,4 +201,6 @@ In the Following Nodes, there are nodes that are on the same level (parallel to)
 Among Preceding Nodes, whatever nodes I have parallel are the Preceding Sibling Nodes.
 - Preceding Sibling is a subset of Preceding - above/before Self Node.
 
+![image](https://user-images.githubusercontent.com/70295997/205735261-43f583d3-f1de-4951-b1d0-04d23b001084.png)
+
 
