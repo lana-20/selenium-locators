@@ -25,7 +25,7 @@ __Customized__ Locators:
   - Tag and Class
   - Tag and Attribute
   - Tag, Class and Attribute
-8. xpath: 
+8. [xpath](https://github.com/lana-20/xpath-locators-selenium): 
   - Absolute Xpath
   - Relative Xpath
 
