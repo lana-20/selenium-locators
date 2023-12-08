@@ -52,7 +52,7 @@ Without an address, there is no element. If there is an element on the web page,
 
 Sometimes, when an element cannot be identified with any other locator, Xpath will 100% find it. That's the reason I use Xpath most of the times. It works effectively, compared to other locators.
 
-__DOM__
+[__DOM__](https://www.w3schools.com/XML/dom_intro.asp)
 - DOM is an API interface provided by the browser
 - When a web page is loaded, the browser creates a __D__ ocument __O__ bject __M__ odel of the page.
 
