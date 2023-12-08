@@ -43,7 +43,7 @@ Sometimes, even if the correct ID is provided, I can't identify the element. Whe
  - XML (Extensible Markup Language) path
  - Syntax/language for finding any element on the web page using XML path expression
  - Used to find the location of any element on the web page using HTML DOM structure
- - Used to navigate through elements and attribites in DOM
+ - Used to navigate through elements and attributes in DOM
  - An address of an element
 
 Xpath always works based on the DOM structure, not directly on HTML.
